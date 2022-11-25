@@ -312,6 +312,8 @@ Theme.set_general_highlights = function(colors)
   highlight('NeogitDiffContextHighlight', 5, 2)
   highlight('NeogitHunkHeader', 5, 3)
   highlight('NeogitHunkHeaderHighlight', 5, 4)
+  highlight('NeogitDiffAdd', 14, 2)
+  highlight('NeogitDiffDelete', 11, 2)
 
   -- gitsigns
   highlight('GitSignsAdd', 9, none)
